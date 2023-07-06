@@ -1,0 +1,32 @@
+/* Author: Reginald Cole */
+
+/* Nav Styles */
+.nav {
+    background-color: black;
+}
+
+.nav a {
+    display: inline-flex;
+    color:white;
+    text-align: center;
+    flex-direction:column;
+    flex-wrap: wrap;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    background-color:moccasin;
+    color:black;
+}
+
+/* Menu Styles */
+.pizzacont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pizza {
+    margin: 10px;
+}

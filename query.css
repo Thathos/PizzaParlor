@@ -1,0 +1,8 @@
+@media screen and (max-width: 568px){
+    .pizzacont {
+        display: block;
+    }
+    .pizza {
+        width:100%;
+    }
+}
