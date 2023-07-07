@@ -30,3 +30,8 @@
 .pizza {
     margin: 10px;
 }
+
+/* Order Page Styles */
+.orderpage {
+    display:flex;
+}
