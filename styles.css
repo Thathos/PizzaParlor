@@ -1,4 +1,19 @@
 /* Author: Reginald Cole */
+/* Color codes: #C03221 Orange #f7f7FF Ghost White #f2D0a4 Sunset */
+/* General Styling */
+.container {
+    margin: auto;
+    background-color: #C03221;
+    
+}
+
+h3{
+    text-align: center;
+}
+
+body{
+    background-color: #f2d0a4;
+}
 
 /* Nav Styles */
 .nav {
@@ -17,7 +32,7 @@
 }
 
 .nav a:hover {
-    background-color:moccasin;
+    background-color: #f2D0a4;
     color:black;
 }
 
@@ -34,4 +49,9 @@
 /* Order Page Styles */
 .orderpage {
     display:flex;
+    justify-content: space-around;
+}
+
+#banner {
+width: 100%;
 }
