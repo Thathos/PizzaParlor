@@ -1,7 +1,7 @@
 /* Author: Reginald Cole */
 /* Color codes: #C03221 Orange #f7f7FF Ghost White #f2D0a4 Sunset */
 /* General Styling */
-.container {
+.ordercontainer {
     margin: auto;
     background-color: #C03221;
     
@@ -9,11 +9,18 @@
 
 h3{
     text-align: center;
+    background-color: #C03221;
+    padding: 10px;
 }
 
 body{
     background-color: #f2d0a4;
 }
+
+#banner {
+    width: 100%;
+    height:auto;
+    }
 
 /* Nav Styles */
 .nav {
@@ -40,10 +47,15 @@ body{
 .pizzacont {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
+
 
 .pizza {
     margin: 10px;
+    border: solid #C03221 2px;
+    background-image: url(pizza_backgroundimage.jpg);
 }
 
 /* Order Page Styles */
@@ -52,6 +64,7 @@ body{
     justify-content: space-around;
 }
 
-#banner {
-width: 100%;
+
+.menu > .pizzacont > .pizza > p {
+    text-align: center;
 }

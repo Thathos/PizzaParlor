@@ -1,10 +1,9 @@
 @media screen and (max-width: 568px){
     .pizzacont {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
-    .pizza {
-        width:100%;
-    }
+    
 
     .nav {
         display: flex;
@@ -14,5 +13,9 @@
     .orderpage{
         display:flex;
         flex-wrap:wrap;
+    }
+
+    .pizza > img {
+        margin: auto;
     }
 }
